@@ -1,51 +1,79 @@
-.persoonlijk-container{
-    background-color: white;
-    height: 500px;
-}
-.persoonlijk-container h1{
-    color: black;
-    font-size: 30px;
-    font-weight: lighter;
-    padding-left: 50px;
-    padding-top: 50px;
-}
-.persoonlijk-container p{
-    color: black;
-    padding-left: 100px;
-    width: 300px;
-}
-.persoonlijk-colorblock{
-    background-color: #abc0a4;
-    position: absolute;
-    height: 500px;
-    width: 530px;
-    margin-top: -369px;
-    margin-left: 900px;
+#section5{
+    height: 110vh;
 }
 
-.persoonlijk-colorblock2{
-    background-color: #cce0c5;
-    position: absolute;
-    height: 500px;
-    width: 600px;
-    margin-top: -369px;
-    margin-left: 500px;
+.section5-title{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
-.persoonlijk-werk1{
-    background-color: #879184;
-    position: absolute;
-    height: 120px;
-    width: 250px;
-    margin-top: 100px;
-    margin-left: 50px;
+.name-title{
+    margin-left: 80px;
+    margin-top: 20px;
+    width: 500px;
+    font-size: 20px;
+    letter-spacing: 2px;
 }
 
-.persoonlijk-werk2{
-    background-color: #879184;
+.name-txt{
+    background-color: #9fac9c;
+    border: none;
+    height: 30px;
+    width: 1200px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.email-title{
+    margin-left: 80px;
+    margin-top: 30px;
+    width: 500px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.email-txt{
+    background-color: #9fac9c;
+    border: none;
+    height: 30px;
+    width: 1200px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.comment-title{
+    margin-left: 80px;
+    margin-top: 30px;
+    width: 500px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.comment-txt{
+    background-color: #9fac9c;
+    border: none;
+    height: 80px;
+    width: 1200px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.submit-btn{
     position: absolute;
-    height: 120px;
-    width: 250px;
-    margin-top: 300px;
-    margin-left: 250px;
+    background-color: #9fac9c;
+    border: none;
+    padding: 15px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 1050px;
+}
+
+#error-txt{
+    margin-left: 80px;
+    margin-top: 30px;
+    width: 500px;
+    font-size: 20px;
+    letter-spacing: 2px;
 }

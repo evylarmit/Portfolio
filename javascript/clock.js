@@ -30,8 +30,8 @@ function startTime() {
     let hr = day.getHours();
     if (hr >= 0 && hr < 12) {
         document.getElementById('timeOfDay').innerHTML= "Goodmorgen";
-    } else if (hr >= 12 && hr <= 17) {
-        document.getElementById('timeOfDay').innerHTML= "Goedemiddag";
+    } else if (hr >= 12 && hr <= 16) {
+        document.getElementById('timeOfDay').innerHTML= "Goedenmiddag";
     } else {
-        document.getElementById('timeOfDay').innerHTML= "Goedeavond";
+        document.getElementById('timeOfDay').innerHTML= "Goedenavond";
     }

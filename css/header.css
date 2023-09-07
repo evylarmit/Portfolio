@@ -1,0 +1,96 @@
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #efefea;
+}
+body p{
+    font-family: 'PT Serif', serif;
+}
+
+header{
+    height: 102vh;
+    background-color: #879184;
+    margin: -10px;
+    margin-top: -20px;
+    padding: 0;
+    color: white;
+}
+.navbar{
+    padding: 0;
+    width: 50%;
+    margin: 0;
+    padding-top: 10px;
+    border: 0;
+    float: right;
+    margin-right: 5%;
+}
+
+.header-links{
+    list-style: none;
+    padding-top: 10px;
+}
+.header-links ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.header-links li{
+    float: right;
+}
+.header-links li p{
+    display: block;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.header-links li a{
+    display: block;
+    padding: 10px;
+    text-decoration:none;
+    color: white;
+    font-size: 25px;
+}
+
+.header-text{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 150px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.header-bottomtext{
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 150px;
+    font-size: 44px;
+    font-weight: 100;
+}
+
+.header-button{
+    position: absolute;
+    background-color: #9fac9c;
+    border: none;
+    padding: 15px;
+    width: 200px;
+    margin-top: 725px;
+    margin-left: 1050px;
+}
+
+.header-button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+}
+
+.logo{
+    position: absolute;
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 220px;
+    font-size: 50px;
+    margin-left: 100px;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+}

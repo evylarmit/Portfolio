@@ -1,12 +1,24 @@
+<?php
+$servername = "127.0.0.1";
+$username = "88890";
+$password = "NYGz3s9L";
 
-<!DOCTYPE HTML>  
-<html>
-<head>
-<style>
-.error {color: #FF0000;}
-</style>
-</head>
-<body>  
+try {
+  $conn = new PDO("mysql:host=$servername;dbname=db_88890", $username, $password);
+  // set the PDO error mode to exception
+  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+  $stmt = $conn->prepare("INSERT INTO Portfolio (Naam, Email, Comment)
+  VALUES (:Naam, :Email, :Comment)");
+  $stmt->bindParam(':Naam', $name);
+  $stmt->bindParam(':Email', $email);
+  $stmt->bindParam(':Comment', $comment);
+  
+  echo "Connected successfully";
+} catch(PDOException $e) {
+  echo "Connection failed: " . $e->getMessage();
+}
+?>
 
 <?php
 // define variables and set to empty values
@@ -49,20 +61,3 @@ function test_input($data) {
   return $data;
 }
 ?>
-
-<h2>PHP Form Validation Example</h2>
-<p><span class="error">* required field</span></p>
-<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-  Name: <input type="text" name="name" value="<?php echo $name;?>">
-  <span class="error">* <?php echo $nameErr;?></span>
-  <br><br>
-  E-mail: <input type="text" name="email" value="<?php echo $email;?>">
-  <span class="error">* <?php echo $emailErr;?></span>
-  <br><br>
-  Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
-  <br><br>
-  <input type="submit" name="submit" value="Submit">  
-</form>
-
-</body>
-</html>

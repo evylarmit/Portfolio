@@ -1,118 +1,47 @@
-.weer_container{
-    background-color: #abc0a4;
-    width: auto;
-    margin-top: -80px;
-    display: flex;
-    flex-direction: row;
+#section2{
+    height: 100vh;
 }
 
-.weer_applicatie{
-    width: 100%;
-    height: 300px;
+.section2-links{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 900px;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+}
+
+.tablinks{
+    border: none;
+    background-color: #efefea;
+    font-size: 25px;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 2px;
+}
+.tabcontent{
+    display: none;
+    border-top: none;
+}
+
+.section2-title{
+    margin-top: 80px;
+    text-align: left;
+    margin-left: 35px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.section2-text{
+    width: 80%;
+    margin-left: 80px;
+    font-size: 20px;
+    letter-spacing: 2px;
     margin-top: 50px;
 }
-#temp{
-    color: white;
-    margin-top: 130px;
-    font-size: 20px;
-    margin-left: 270px;
-    position: absolute;
-    text-align: right;
-}
-#conditie{
-    color: white;
-    margin-top: 100px;
-    font-size: 20px;
-    margin-left: 230px;
-    position: absolute;
-    text-align: right;
-}
-#locatie{
-    color: white;
-    margin-top: 55px;
-    font-size: 40px;
-    margin-left: 130px;
-    width: 100px;
-    position: absolute;
-    text-align: right;
-}
 
-#search-bar{
-    width: 150px;
-    height: 20px;
-    position: absolute;
-    margin-top: 250px;
-    margin-left: 270px;
-    border: none;
-    padding: 5px;
-    text-align: center;
-    color: #879184;
-}
-#search-btn{
-    position: absolute;
-    width: 75px;
-    height: 30px;
-    margin-top: 250px;
-    margin-left: 440px;
-    border: none;
-    padding: 5px;
-    text-align: center;
-    background-color: #cce0c5;
-    cursor: pointer;
-}
-
-#search-btn:hover{
-    background-color: white;
-}
-
-/* Projecten uitleg */
-.weer_uitleg{
-    color: white;
-    width: 80%;
-    padding-top: 50px;
-    padding-right: 70px;
-    padding-left: 300px;
-}
-
-.weer_uitleg p{
-    color: white;
-}
-.weer_uitleg h1{
-    color: white;
-    font-size: 30px;
-    font-weight: lighter;
-}
-
-
-/* Dag applicatie */
-.day_applicatie{
-    width: 100%;
-    height: 300px;
-    position: absolute;
-}
-/* Dag applicatie uitputs*/
-#clock{
-    color: white;
-    margin-top: 150px;
-    font-size: 20px;
-    margin-left: 510px;
-    position: absolute;
-}
-
-#date{
-    color: white;
-    margin-top: 180px;
-    font-size: 20px;
-    margin-left: 510px;
-    width: 150px;
-    position: absolute;
-}
-
-#timeOfDay{
-    color: white;
-    margin-top: 105px;
-    font-size: 40px;
-    margin-left: 510px;
-    width: 100px;
-    position: absolute;
+.section2-video1{
+    background-color: #879184;
+    width: 854px;
+    height: 480px;
+    margin-left: 100px;
+    margin-top: 50px;
 }
