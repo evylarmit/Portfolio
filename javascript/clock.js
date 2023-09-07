@@ -29,7 +29,7 @@ function startTime() {
     let day = new Date();
     let hr = day.getHours();
     if (hr >= 0 && hr < 12) {
-        document.getElementById('timeOfDay').innerHTML= "Goodmorgen";
+        document.getElementById('timeOfDay').innerHTML= "Goedenmorgen";
     } else if (hr >= 12 && hr <= 16) {
         document.getElementById('timeOfDay').innerHTML= "Goedenmiddag";
     } else {

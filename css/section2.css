@@ -1,20 +1,37 @@
 #section2{
-    height: 100vh;
+    height: 110vh;
 }
 
 .section2-links{
     position: absolute;
     margin-top: -50px;
-    margin-left: 900px;
+    margin-left: 800px;
     overflow: hidden;
     justify-content: center;
     display: flex;
 }
 
+.section2-btn{
+    position: absolute;
+    background-color: #9fac9c;
+    border: none;
+    padding: 15px;
+    width: 200px;
+    margin-top: 470px;
+    margin-left: 50px;
+}
+
+
+.section2-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+}
 .tablinks{
     border: none;
     background-color: #efefea;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'PT Serif', serif;
     letter-spacing: 2px;
 }
