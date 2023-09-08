@@ -1,0 +1,28 @@
+footer{
+    background-color: #879184;
+    margin: -10px;
+    height: 20vh;
+    width: 105vw;
+}
+
+.footer-title{
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.github-text{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.linkedin-text{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+}

@@ -6,14 +6,13 @@
     <script src="javascript/weather.js" defer></script>
     <script src="javascript/clock.js" defer></script>
     <script src="javascript/script.js"></script>
-    <script src="javascript/windowsizechange.js"></script>
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/section1.css">
-    <link rel="stylesheet" href="css/section2.css">
-    <link rel="stylesheet" href="css/section3.css">
-    <link rel="stylesheet" href="css/section4.css">
-    <link rel="stylesheet" href="css/section5.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css-mobile/header.css">
+    <link rel="stylesheet" href="css-mobile/section1.css">
+    <link rel="stylesheet" href="css-mobile/section2.css">
+    <link rel="stylesheet" href="css-mobile/section3.css">
+    <link rel="stylesheet" href="css-mobile/section4.css">
+    <link rel="stylesheet" href="css-mobile/section5.css">
+    <link rel="stylesheet" href="css-mobile/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
@@ -27,11 +26,8 @@
         <div class="navbar">
             <ul class="header-links">
                 <li><a href="#section1">About Me</a></li>
-                <li><p>-</p></li>
                 <li><a href="#section2">Mijn Projecten</a></li>
-                <li><p>-</p></li>
                 <li><a href="#section4">Mijn CV</a></li>
-                <li><p>-</p></li>
                 <li><a href="#section5">Contact Me</a></li>
             </ul>
         </div>
@@ -100,7 +96,7 @@
     <section id="section4">
         <h1 class="section4-title">MIJN CV</h1>
         <p class="section4-text"> "Hier naast in mijn CV te zien. Ik heb deze zelf gemaakt en er staan verschillende dingen op. Er staad een werkverleden. Ik hab namelijk in 2023 een stage gedaan bij de nationale bibliotheek ik denk dat ik echt een kijkje in het werkleven heb gekregen. Ik zat niet echt in de afdeling IT maar ik heb wel een paar intervieuws gehad met de afdelingen en verschillende werknemers. Daarvan heb ik vooral veel geleerd over hoe ze hun software gebruiken. Maar denk ik dat ik niet echt een goede werkdag heb meegemaakt als je dat zelf had moeten doen. Toch was het erg intersant te leren over Digitalisering. </p>
-        <p class="section4-text">Ook heb ik mijn skills staan ik denk dat deze wel bij mij passen. en het is eigenlijk een inkijkje om te zien wat ik denk dat mijn sterken en zwakeren punten zijn. Voor de rest heb ik ook mijn school verleden neer gezet. "</p> 
+        <p class="section4-text2">Ook heb ik mijn skills staan ik denk dat deze wel bij mij passen. en het is eigenlijk een inkijkje om te zien wat ik denk dat mijn sterken en zwakeren punten zijn. Voor de rest heb ik ook mijn school verleden neer gezet. "</p> 
         <img src="img/InfograficCV.jpg" alt="" class="section4-img-cv">
     </section>
     <section id="section5">

@@ -7,12 +7,13 @@ body p{
 }
 
 header{
-    height: 102vh;
+    height: 100%;
     background-color: #879184;
     margin: -10px;
     margin-top: -20px;
     padding: 0;
     color: white;
+    width: 105vw;
 }
 .navbar{
     padding: 0;
@@ -37,44 +38,40 @@ header{
 .header-links li{
     float: right;
 }
-.header-links li p{
-    display: block;
-    margin-top: 10px;
-    font-size: 25px;
-}
+
 .header-links li a{
     display: block;
-    padding: 10px;
+    padding: 5px;
+    margin-top: 5px;
     text-decoration:none;
     color: white;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .header-text{
-    position: absolute;
-    margin-top: 400px;
-    margin-left: 150px;
-    font-size: 60px;
+    margin-top: -10px;
+    margin-left: 20px;
+    padding-top: 500px;
+    font-size: 50px;
     font-weight: bolder;
 }
 
 .header-bottomtext{
-    position: absolute;
-    margin-top: 480px;
-    margin-left: 150px;
-    font-size: 44px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    width: 300px;
     font-weight: lighter;
     font-family: 'Bodoni Moda', serif;
 }
 
 .header-button{
-    position: absolute;
     background-color: #9fac9c;
     border: none;
     padding: 15px;
     width: 200px;
-    margin-top: 725px;
-    margin-left: 1050px;
+    margin-top: 10px;
+    margin-left: 200px;
 }
 
 .header-button a{
@@ -88,10 +85,10 @@ header{
     position: absolute;
     background-color: white;
     color: black;
-    width: 150px;
-    height: 220px;
-    font-size: 50px;
-    margin-left: 100px;
+    width: 85px;
+    height: 130px;
+    font-size: 30px;
+    margin-left: 50px;
     text-align: center;
     font-family: 'Abril Fatface', cursive;
 }
