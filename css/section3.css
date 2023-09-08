@@ -23,7 +23,10 @@
     margin-top: 300px;
     margin-left: 52%;
     position: absolute;
+    color: white;
+    font-family: 'PT Serif', serif;
 }
+
 .weer-applicatie{
     position: absolute;
     width: 40%;

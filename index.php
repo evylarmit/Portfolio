@@ -6,7 +6,12 @@
     <script src="javascript/weather.js" defer></script>
     <script src="javascript/clock.js" defer></script>
     <script src="javascript/script.js"></script>
-    <script src="javascript/windowsizechange.js"></script>
+    <script src="javascript/windowsizechange.js" defer></script>
+    <script>
+        if (screen.width < 767) {
+            window.location.replace("index-mobile.php");
+        }
+    </script>
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/section1.css">
     <link rel="stylesheet" href="css/section2.css">
@@ -20,6 +25,7 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
     <title>Portfolio</title>
 </head>
 <body onload="startTime()">
@@ -45,7 +51,7 @@
     <section id="section1">
         <h1 class="section1-title">ABOUT ME</h1>
         <p class="section1-text"> 
-            "Hi, ik ben Evy Larmit, 
+            "Hi, ik ben Evy Larmit - 17 jaar, 
                 ik ben nu bezig met een opleiding op het Grafisch Lyceum Rotterdam. 
                 Ook heb ik inspiratie om in Berlijn een master opleiding te doen. 
                 Dit is een van mijn main goals, ook wil ik graag door studeren naar een HBO.
@@ -65,7 +71,7 @@
         <div id="Project 1" class="tabcontent">
             <img src="img/besteljemaaltijd.png" alt="" class="section2-video1">
             <button class="section2-btn"><a target="_blank" href="https://89612.stu.sd-lab.nl/beroeps/besteljemaaltijd/index.html">Bezoek de site!</a></button>
-            <p class="section2-text"> "In dit project werd er samengewerkt met Yvanka, Dima en Shainy. Ik heb met dit projcet best veel geleerd over samen werken en goed communcatie. Zoals je kan zien aan de pagina kun je merken dat de home pagina en de rest van de paginas iets anders eruit zien. Dit komt vooral door slechte communcatie. Iemand was al begonnen aan de homepagina zonder dat we een design hadden en uiteindelijk was de code zo laat gestuurd dat we het niet meer konden veranderen. Volgende keer moeten we meer met elkaar praten en een beter plan van aanpak vormen. Ik ben wel erg blij det het uiteindelijk af is gekomen maar ik vind dat het beter had kunnen zijn."</p> 
+            <p class="section2-text"> "In dit project werd er samengewerkt met Yvanka, Dima en Shainy. Ik heb met dit projcet best veel geleerd over samen werken en goede communcatie. Zoals je kan zien aan de pagina kun je merken dat de home pagina en de rest van de paginas iets anders eruit zien. Dit komt vooral door slechte communcatie. Iemand was al begonnen aan de homepagina zonder dat we een design hadden en uiteindelijk was de code zo laat gestuurd dat we het niet meer konden veranderen. Volgende keer moeten we meer met elkaar praten en een beter plan van aanpak vormen. Ik ben wel erg blij det het uiteindelijk af is gekomen maar ik vind dat het beter had kunnen zijn."</p> 
         </div>
         <div id="Project 2" class="tabcontent">
             <img src="img/buildyourzoo.png" alt="" class="section2-video1">
@@ -73,9 +79,9 @@
             <p class="section2-text"> "Dit project was ons eerste project ooit voor het vak beroeps. Dit project is gemaakt met Yvanka en Anne. Dit hebben we samengedaan in de loop van 5 weken. We hebben veel gewerkt met het design. Als ik op dit project terug kijk vond ik het heel leuk om samen te doen. We werken goed samen omdat we al vrienden waren. Toch denk ik als ik nu de kans had het design zeker anders gedaan. We wouden het erg kinderlijk houden maar ik denk dat de kleuren niet zo mooi zijn. Toch een mooi project en een goede eerste kans om samen te coderen."</p> 
         </div>
         <div id="Project 3" class="tabcontent">
-            <div class="section2-video1"> </div>
+            <img src="img/formule1.png" alt="" class="section2-video1">
             <button class="section2-btn"><a target="_blank" href="#">Bezoek de site!</a></button>
-            <p class="section2-text"> "Ik heb dit project voor het eerste keer alleen moeten doen. En ik vondt het geweldig om zelf alle desingen te doen. Ik had een richtlijn voor wat het moest worden en het was super leuk om het te doen hoe ik dat wou. Ik heb veel plezier gehad in het coderen. Ik kwam er wel achter in dit project dat ik nog veel moet leren. Ik liep zelf vaak tegen dingen aan en had een beetje moeiten met javascript stukjes. Toch ben ik erg trots op wat ik heb gemaakt en ik zou het graag opnieuw doen en kijken hoeveel ik ben gegroeit en wat ik nu beter kan."</p> 
+            <p class="section2-text"> "Ik heb dit project voor het eerste keer alleen moeten doen. En ik vond het geweldig om zelf alle designen te doen. Ik had een richtlijn voor wat het moest worden en het was super leuk om het te doen hoe ik dat wou. Ik heb veel plezier gehad in het coderen. Ik kwam er wel achter in dit project dat ik nog veel moet leren. Ik liep zelf vaak tegen dingen aan en had een beetje moeiten met javascript stukjes. Toch ben ik erg trots op wat ik heb gemaakt en ik zou het graag opnieuw doen en kijken hoeveel ik ben gegroeit en wat ik nu beter kan."</p> 
         </div>
     </section>
     <section id="section3">
@@ -99,19 +105,19 @@
     </section>
     <section id="section4">
         <h1 class="section4-title">MIJN CV</h1>
-        <p class="section4-text"> "Hier naast in mijn CV te zien. Ik heb deze zelf gemaakt en er staan verschillende dingen op. Er staad een werkverleden. Ik hab namelijk in 2023 een stage gedaan bij de nationale bibliotheek ik denk dat ik echt een kijkje in het werkleven heb gekregen. Ik zat niet echt in de afdeling IT maar ik heb wel een paar intervieuws gehad met de afdelingen en verschillende werknemers. Daarvan heb ik vooral veel geleerd over hoe ze hun software gebruiken. Maar denk ik dat ik niet echt een goede werkdag heb meegemaakt als je dat zelf had moeten doen. Toch was het erg intersant te leren over Digitalisering. </p>
-        <p class="section4-text">Ook heb ik mijn skills staan ik denk dat deze wel bij mij passen. en het is eigenlijk een inkijkje om te zien wat ik denk dat mijn sterken en zwakeren punten zijn. Voor de rest heb ik ook mijn school verleden neer gezet. "</p> 
+        <p class="section4-text"> "Hier naast in mijn CV te zien. Ik heb deze zelf gemaakt en er staan verschillende dingen op. Er staad een werkverleden. Ik heb namelijk in 2023 een stage gedaan bij de nationale bibliotheek ik denk dat ik echt een kijkje in het werkleven heb gekregen. Ik zat niet echt in de afdeling IT maar ik heb wel een paar intervieuws gehad met de afdeling en hun verschillende werknemers. Daarvan heb ik vooral veel geleerd over hoe ze hun software gebruiken. Maar denk ik dat ik niet echt een goede werkdag heb meegemaakt als je dat zelf had moeten doen. Toch was het erg intersant te leren over Digitalisering. </p>
+        <p class="section4-text">Ook heb ik mijn skills staan ik denk dat deze wel bij mij passen. En het is eigenlijk een inkijkje om te zien wat ik denk dat mijn sterken en zwakeren punten zijn. Voor de rest heb ik ook mijn school verleden neer gezet. "</p> 
         <img src="img/InfograficCV.jpg" alt="" class="section4-img-cv">
     </section>
     <section id="section5">
         <h1 class="section5-title">CONTACT</h1>
         <p><span class="error" id="error-txt">* required field</span></p>
-        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-            <p class="name-title">Name: <span class="error">* <?php echo $nameErr;?></span> </p>  
-            <input class="name-txt" type="text" name="name" value="<?php echo $name;?>">
+        <form method="post" action="connection.php">  
+            <p class="name-title">Name: <span class="error">* </span> </p>  
+            <input class="name-txt" type="text" name="name" value="<?php echo $name;?> " required>
             <br><br>
-            <p class="email-title">E-mail: <span class="error">* <?php echo $emailErr;?></span></p> 
-            <input class="email-txt" type="text" name="email" value="<?php echo $email;?>">
+            <p class="email-title">E-mail: <span class="error">* </span></p> 
+            <input class="email-txt" type="text" name="email" value="<?php echo $email;?>" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required>
             <br><br>
             <p class="comment-title">Comment:</p> 
             <textarea class="comment-txt" name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
